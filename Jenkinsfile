@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {            
-            git https://github.com/kotte89/mvn_sonar.git'
+            git url: 'https://github.com/kotte89/mvn_sonar.git'
 		}
 	}
 	stage('Build Analysis') {
