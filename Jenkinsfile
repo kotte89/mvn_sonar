@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {            
-            git url: 'https://github.com/kotte89/mvn_sonar.git'
+            git url : 'https://github.com/kotte89/mvn_sonar.git'
 		}
 	}
 	stage('Build Analysis') {
@@ -25,6 +25,5 @@ pipeline {
 			sh '/opt/maven/bin/mvn clean install -Dmaven.test.skip=true'
 		}
 	}
-	
 }
 }
