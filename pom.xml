@@ -19,7 +19,7 @@
       <distributionManagement>
   <repository>
     <id>releases</id>
-    <url>http://52.34.107.100:8081/nexus/content/repositories/releases</url>
+    <url>http://172.31.5.155:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
       <groupId>junit</groupId>
